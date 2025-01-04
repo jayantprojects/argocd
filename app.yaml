@@ -40,6 +40,6 @@ spec:
       minReadySeconds: 10                # Corrected the field name here
       containers:
       - name: mycontainer1
-        image: jayantborate14/mithuntechnologies:apache2
+        image: jayantborate14/mithuntechnologies:apache2.2
         ports:
         - containerPort: 80
